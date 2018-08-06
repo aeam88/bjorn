@@ -16,7 +16,7 @@ body {
 
 .inner-cont {
 	background-color: white;
-	padding-bottom: 24em;
+	padding-bottom: 36em;
 }
 
 .container {
@@ -130,12 +130,26 @@ body {
 	flex: 1;
 	display: flex;
 	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.v-mas a {
+	color: #45474b;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-bottom: -24px;
+}
+
+.v-mas i {
+	margin-left: 0.75em;
 }
 
 .content-area-uno {
 	display: flex;
 	margin-top: -20em;
 	align-items: center;
+
 }
 
 .lado-derecho {
@@ -173,6 +187,7 @@ body {
 
 .content-area-dos {
 	display: flex;
+	padding: 4em;
 }
 
 /*.img-maseta {
@@ -180,3 +195,27 @@ body {
 	right: 0;
 }*/
 
+
+.area-dos-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 4em;
+}
+
+.area-dos-left h3 {
+	color: #45474b;
+	font-size: 1.8em;
+	margin-bottom: 1em;
+}
+
+.area-dos-left p {
+	text-align: justify;
+	line-height: 1.8em;
+	padding-bottom: 1em;
+}
+
+.area-dos-left a {
+	color: #45474b;
+	font-weight: 600;
+}
