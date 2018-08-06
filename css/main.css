@@ -16,6 +16,7 @@ body {
 
 .inner-cont {
 	background-color: white;
+	padding-bottom: 24em;
 }
 
 .container {
@@ -130,3 +131,52 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+
+.content-area-uno {
+	display: flex;
+	margin-top: -20em;
+	align-items: center;
+}
+
+.lado-derecho {
+	display: flex;
+}
+
+.content-middle {
+	background-color: #45474b;
+	padding: 2em;
+	flex: 0.9;
+}
+
+.content-middle h3 {
+	color: white;
+	font-size: 1.8em;
+	margin-bottom: 1em;
+}
+
+.content-middle p {
+	color: white;
+	line-height: 1.9em;
+	text-align: justify;
+	padding-bottom: 2em;
+}
+
+.content-middle a {
+	color: white;
+	font-weight: 600;
+}
+
+.img-right {
+	flex: 2;
+	align-self: center;
+}
+
+.content-area-dos {
+	display: flex;
+}
+
+/*.img-maseta {
+	position: absolute;
+	right: 0;
+}*/
+
